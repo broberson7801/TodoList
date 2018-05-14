@@ -1,0 +1,17 @@
+<h1>THE TODO PAGE</h1>
+<table class="table table-striped well">
+		  <thead>
+		  	<tr>
+		  	  <td>Todo</td>
+		  	  <td>Description</td>
+		  	</tr>
+		  </thead>
+		  
+		  <tbody>
+		  <tr ng-repeat="todo in vm.todos">
+		  <td>{{todo.todoName}}</td>
+		  <td>{{todo.todoDescription}}</td>
+		  
+		  </tbody>
+		  
+</table>

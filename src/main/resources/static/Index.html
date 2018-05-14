@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html ng-app="appModule">
+<head>
+<meta charset="UTF-8">
+<title>TITILE THINGY!</title>
+
+<!-- Bootstrap -->
+  <link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+	integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+	crossorigin="anonymous">
+	
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+	
+<!-- AngularJs -->
+	
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular-route.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular-cookies.min.js"></script>
+  
+ <!-- Modules -->
+ 
+ <script src="app/app.module.js"></script>
+ 
+ <!-- Services -->
+ <script src="app/todo.service.js"></script>
+ 
+ <!-- Components -->
+ <script src="app/home.component.js"></script>
+ <script src="app/todo.component.js"></script>
+	
+</head>
+<body>
+<ng-view></ng-view>
+</body>
+</html>
